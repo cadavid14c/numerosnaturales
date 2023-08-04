@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.contenedor {
+    padding: 60px 0;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+.titulo {
+    color: orange;
+    ;font-size: 40;
+}
+
+/* header  */
+.header {
+    background-image:linear-gradient(to right, hsla(23, 56%, 59%, 0.902), #f374357b),url(../images/fondo\ 2.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+    text-shadow: 1px 1px 5px #ffffff;
+    font-size: 20px;
+    margin-right: 20px;
+    
+}
+
+.svg-header {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.textos-header {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.textos-header img {
+    width: 250px;
+    margin-bottom: 25px;    
+}
+
+.textos-header h1 {
+    font-size: 60px;
+    text-shadow: 1px 1px 5px #13f208b9;
+    font-weight: bold;
+}
+
+.textos-header p {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.textos-header a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 20px;
+    background-color: rgba(237, 222, 122, 0.888);
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+
+/* nosotros */
+
+main .sobre-nosotros {
+    padding: 30px 0 60px ;
+}
+
+.contenido-sobre-nosotros {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.imagendino {
+    width: 40%;
+}
+
+.contenido-texto {
+    margin-bottom: 20px;
+
+}
+
+.contenido-textos {
+    padding: 0 0 30px 20px;
+}
+
+.contenido-texto h3 span {
+    background-color: rgba(20, 216, 16, 0.062);
+    color: white;
+    border-radius: 80%;
+    padding: 5%;
+    display: inline-block;
+    width: 5%;
+    height: 5%;
+    text-align: center;
+}
+
+p {
+    color: darkorange;
+    font-size: 25px;
+}
+
+.litros {
+    padding: 60px 0;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+img {
+    width: 200px;
+}
+
+.litros {
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+h3 {
+    font-size: 60px;
+    text-shadow: 1px 1px 5px #13f208b9;
+    font-weight: bold;
+}
+
+
+.caja {
+    padding: 60px 0;
+    width: 80%;
+    height: 80%;
+    position: relative;
+
+}
+
+.video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
