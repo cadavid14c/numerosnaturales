@@ -102,6 +102,7 @@ main .sobre-nosotros {
 .contenido-sobre-nosotros {
     display: flex;
     justify-content: space-evenly;
+    padding: 2%;
     
 }
 
@@ -111,6 +112,7 @@ main .sobre-nosotros {
 
 .contenido-texto {
     margin-bottom: 20px;
+    padding: 4%;
 
 }
 
@@ -160,16 +162,42 @@ h3 {
 }
 
 
-.caja {
-    padding: 60px 0;
-    width: 80%;
-    height: 80%;
-    position: relative;
-
+.tex {
+    color: black;
+    text-shadow: 1px 1px 10px rgb(247, 132, 0);
 }
 
-.video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+.contacto {
+    background-color: #ffffff;
+}
+
+.cont {
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    text-shadow: 1px 1px 5px #13f208b9;
+}
+
+.datos {
+    width: 90%;
+    max-height: 1000px;
+    border: 10px solid #f7a900;
+    margin: auto;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.datos div  {
+    display: block;
+    padding: 20px;
+    background-color: rgb(46, 253, 0);
+    box-shadow: 1px 1px 8px rgb(0, 0, 0)
+}
+
+.datos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    
 }
