@@ -4,95 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/stilo.css">
-    <link rel="shortcut icon" href="images/doranjas logo imagen.jpg">
 </head>
 <body>
-    <header class="header">
-        <nav>
-            <a href="">nosotros</a>
-            <a href="">jugos</a>
-            <a href="">contactanos</a>
-        </nav>
-        <div class="textos-header">
-            <img src="images/doranjas logo imagen.jpg" alt="">
-            <h1>DORANJAS</h1>
-            <p></p>
-            <a href="">comprar</a>
-        </div>
-        <div class="svg-header">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L48,154.7C96,149,192,139,288,128C384,117,480,107,576,138.7C672,171,768,245,864,272C960,299,1056,277,1152,229.3C1248,181,1344,107,1392,69.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-        </div>
-    </header>
-
-    <main>
-        <section class="contenedor sobre-nosotros">
-            <h2 class="titulo">nosotros</h2>
-            <div class="contenido-sobre-nosotros">
-                <img src="images/dorandino.jpg" alt="" class="imagendino">
-                <div class="contenido-texto">
-                    <h3> <span>🍊</span> DORANJAS </h3>
-                    <p>No hay mejor jugo que aquel que te da energía, como el de las naranjas
-                        que contiene un bajo índice glucémico; lo que quiere decir que eleva
-                        lentamente la cantidad de azúcar en el cuerpo. Esto lo hace mejor que
-                        una taza de café o una bebida energizante. Por eso se recomienda tomarlo
-                        en las mañanas para tener la energía suficiente durante todo el día.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="litros">
-            <div class="imagenes-litro">
-                <img src="images/1itro.jpg" alt="" cl>
-                <h3> <span>1</span> Litro</h3>
-                <p class="tex"> Un placer natural a su gusto</p>
-            </div>
-            <div class="imagenes-litro">
-                <img src="images/3litros.jpg" alt="">
-                <h3> <span>3</span> Litros</h3>
-                <p class="tex"> Un placer natural a su gusto</p>
-            </div>
-            <div class="imagenes-litro">
-                <img src="images/5litros.jpg" alt="">
-                <h3> <span>5</span> Litros</h3>
-                <p class="tex"> Un placer natural a su gusto</p>
-            </div>
-        </section>
-        <div class="contacto">
-            <h1 class="cont">contacto</h1>
-        </div>
-
-        <div class="datos">
-            <div><label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre" /></div>
-            <div><label for="apellido">Apellido</label>
-                <input type="text" id="apellido"></div>
-            <div><label for="">edad</label>
-                <input type="number"></div>
-            <div><label for="">EMAIL</label>
-                <input type="email"></div>
-            <div><label for="">CONTRASEÑA</label>
-                <input type="password"></div>
-            <div><label for="">fecha de nacimiento</label>
-                <input type="date"></div>
-            <div><label for="">telefono</label>
-                <input type="number"></div>
-            <div> <label for="">direccion</label>
-                <input type="address"></div>
-            <div> <label for="">hombre</label>
-                <input type="radio" name="sexo">
-                <label for="">mujer</label>
-                <input type="radio" name="sexo"</div><label for="">otro</label>
-                <input type="radio" name="sexo">
-                <label for=""> cual </label></div>
-            <div><textarea name="" id="" cols="10" rows="1"></textarea></div>
-            <div><label for="">foto de perfil</label>
-                <input type="file"></div>
-            <div><button>enviar</button></div>
-            
-        </div>
-        
-        
-    </main>
+    <script>
+        let n = parseInt(prompt('ingresar numero:'))
+        let ac = 0, i = n - 1;
+        while(i > 0){
+            r = n % i;
+            if(r == 0){
+                ac = ac + i;
+            }
+            i = i -1;
+        }
+        if(n == ac){
+            document.write("el numero es natural perfecto.");
+        }else{
+            document.write("el numero no es natural perfecto ");
+        }
+    </script>
 </body>
 </html>
